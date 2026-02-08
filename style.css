@@ -980,6 +980,9 @@ a {
 }
 
 @media (max-width: 440px) {
+    .prais {
+        padding: 50px 0;
+    }
     .prais-two {
         p {
             line-height: 10=2px;
