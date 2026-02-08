@@ -1,0 +1,1029 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#header {
+    padding: 25px 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    button {
+        font-weight: 700;
+        font-size: 17px;
+        background: #FF7143;
+        color: white;
+        padding: 15px 45px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+
+.header-nav {
+    display: flex;
+    gap: 40px;
+    a {
+    font-weight: 700;
+    font-size: 15px;
+    color: #696871;
+    }
+}
+
+#hero {
+    padding: 40px 0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    h1 {
+      font-weight: 700;
+       font-size: 80px;
+       line-height: 77px;
+        letter-spacing: -2.5px;
+        color: #19191B;
+    }
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.63px;
+        color: #696871;
+        margin: 30px 0;
+    }
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    button {
+        font-weight: 700;
+        font-size: 17px;
+        background:#5454D4;
+        color: white;
+        padding: 15px 45px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+
+.hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.index {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.index-text {
+    h1 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 57px;
+        letter-spacing: -1.56px;
+        color: #19191B;
+    }
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.63px;
+        color: #696871;
+        margin: 30px 0;
+    }
+}
+
+.metrics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.metrics-text {
+    h1 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 57px;
+        letter-spacing: -1.56px;
+        color: #19191B;
+    }
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.63px;
+        color: #696871;
+        margin: 30px 0;
+    }
+}
+
+
+.benchmarks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.icon-one {
+    h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    img {
+        margin-left: 70px;
+    }
+}
+
+.icon-two {
+    h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    img {
+        margin-left: 70px;
+    }
+}
+
+.icon-trhee {
+    h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    img {
+        margin-left: 70px;
+    }
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    h2 {
+       font-weight: 700;
+        font-size: 60px;
+        line-height: 70px;
+        letter-spacing: -1.88px;
+
+    }
+}
+
+.planbtn  {
+    background-color: #F7F7FB;
+    padding: 5px 7px;
+    border-radius: 10px;
+    border: none;
+    button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+    text-align: center;
+    padding: 15px 45px !important;
+    transition: all;
+    transition-duration: 0.2s;
+    }
+
+}
+
+.btn-yearly {
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-monthly {
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-yearly:focus {
+    background: #5454D4;
+    color: white;
+}
+
+.btn-monthly:focus {
+    background: #5454D4;
+    color: white;
+}
+ 
+.prais {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.prais-one {
+    background: #F8F8F8;
+    padding: 50px;
+    border: none;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 0.5s;
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.56px;
+        text-align: center;
+        color: #696871;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 56px;
+        letter-spacing: -1.03px;
+        text-align: center;
+        color: #1D293F;
+        margin: 20px;
+    }
+    button {
+        font-weight: 700;
+        font-size: 17px;
+        letter-spacing: -0.53px;
+        text-align: center;
+        background: #FFFFFF;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 65px;
+        margin: 20px;
+    }
+}
+
+.prais-two {
+    background: #F8F8F8;
+    padding: 50px;
+    border: none;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 0.5s;
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.56px;
+        text-align: center;
+        color: #696871;
+       
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 56px;
+        letter-spacing: -1.03px;
+        text-align: center;
+        color: #1D293F;
+       margin: 20px;
+    }
+
+    span {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 56px;
+        letter-spacing: -1.03px;
+        text-align: center;
+
+    }
+    button {
+        font-weight: 700;
+        font-size: 17px;
+        letter-spacing: -0.53px;
+        text-align: center;
+        background: #FFFFFF;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 65px;
+        margin: 20px;
+    }
+}
+
+
+.prais-one:hover {
+    background: #FF7143;
+    padding: 70px;
+    
+    p {
+        color: white;
+    }
+    h1 {
+        color: white;
+    }
+    button {
+        background: #9F3919;
+        color: white;
+    }
+}
+
+.prais-two:hover {
+    background: #FF7143;
+    color: white;
+    padding: 70px;
+    
+    p {
+        color: white;
+    }
+    h1 {
+        color: white;
+    }
+    button {
+        background: #9F3919;
+        color: white;
+    }
+}
+
+@media (max-width: 1140px) {
+    .container {
+        width: 90%;
+    }
+    .hero-text {
+        h1 {
+            font-size: 60px;
+            line-height: 65px;
+        }
+    }
+    .prais-one {
+        padding: 33px;
+    }
+    .prais-one:hover {
+        padding: 40px;
+    }
+    .prais-two {
+        padding: 28px;
+    }
+    .prais-two:hover {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .benchmarks {
+        h1 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 1074px) {
+    .hero-text {
+        h1 {
+            font-size: 55px;
+            line-height: 60px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 25px;
+        }
+    }
+}
+
+@media (max-width: 1065px) {
+    .prais-one {
+        padding: 22px;
+        h1 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 17px;
+            line-height: 24px;
+        }
+    }
+    .prais-one:hover {
+        padding: 30px;
+    }
+    .prais-two {
+        padding: 20px;
+        h1 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 17px;
+            line-height: 24px;
+        }     
+    }
+    .prais-two:hover {
+        padding: 30px;
+    }
+    .plan {
+        h2 {
+            font-size: 50px;
+            line-height: 60px;
+        }
+    }
+    .planbtn {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .prais-one:hover {
+        padding: 20px;
+    }
+    .prais-one {
+        padding: 12px;
+        h1 {
+            font-size: 45px;
+        }
+        p {
+            font-size: 15px;
+        }
+
+    }
+    .prais-two {
+        padding: 10px;
+        h1 {
+            font-size: 45px;
+        }
+        p {
+            font-size: 15px;
+        }
+        
+    }
+    .prais-two:hover {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 982px) {
+    .hero-big {
+        img {
+            width: 450px;
+        }
+    }
+    .hero-text {
+        h1 {
+            font-size: 50px;
+            line-height: 55px;
+        }
+        p {
+            font-size: 13px;
+            line-height: 22px;
+        }
+    }
+    .index {
+        img {
+            width: 350px;
+        }
+    }
+    .index-text {
+        h1 {
+            font-size: 45px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+    .metrics {
+        img {
+            width: 350px;
+        }
+    }
+    .metrics-text {
+        h1 {
+            font-size: 45px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+    .benchmarks {
+        h1 {
+            font-size: 15px;
+        }
+        p {
+            font-size: 12px;
+        }
+        img {
+            margin-left: 50px;
+        }
+    }
+}
+
+@media (max-width :956px) {
+    .hero-btn {
+        button {
+            font-size: 14px;
+        }
+        img {
+            width: 60px;
+        }
+    }
+}
+
+@media (max-width: 930px) {
+    .prais-one {
+        padding: 5px;
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        button {
+            font-size: 14px;
+        }
+    }
+    .prais-one:hover {
+        padding: 12px;
+    }
+    .prais-two:hover {
+        padding: 12px;
+    }
+    .prais-two {
+        padding: 2px;
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        span {
+            font-size: 20px;
+        }
+        button {
+            font-size: 14px;
+        }
+    }
+    .plan {
+        h2 {
+            font-size: 40px;
+            line-height: 50px;
+       }
+    }
+    .planbtn {
+        button {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 855px) {
+    .benchmarks {
+        p {
+            font-size: 10px;
+        }
+        h1 {
+            font-size: 14px;
+        }
+        img {
+            width: 120px;
+            margin-left: 35px;
+        }
+    }
+    .index {
+        img {
+            width: 300px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+    .metrics {
+        img {
+            width: 300px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+    .hero-image {
+        display: none;
+    }
+    .plan {
+        h2 {
+            font-size: 35px;
+            line-height: 45px;
+        }
+    }
+    .planbtn {
+        button {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 835px) {
+    .prais-one {
+        padding: 2px;
+        h1 {
+            font-size: 35px;
+        }
+        p {
+            font-size: 12px;
+            line-height: 20px;
+        }
+        button {
+            font-size: 12px;
+        }
+    }
+    .prais-two {
+        padding: 2px;
+        h1 {
+            font-size: 35px;
+        }
+        p {
+            font-size: 12px;
+            line-height: 20px;
+        }
+        button {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 784px) {
+    .plan {
+        h2 {
+            font-size: 34px;
+            line-height: 45px;
+        }
+    }
+    .planbtn {
+        button {
+            font-size: 12px;
+        }
+    }
+    .prais-one {
+        padding: 2px;
+        h1 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 10px;
+            line-height: 15px;
+        }
+        button {
+            font-size: 10px;
+        }
+    }
+    .prais-two {
+        padding: 2px;
+        h1 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 10px;
+            line-height: 15px;
+        }
+        span {
+            font-size: 15px;
+        }
+        button {
+            font-size: 10px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        button {
+            font-size: 13px;
+            padding: 12px 35px;
+        }
+        a {
+            font-size: 12px;
+        }
+    }
+    .hero-text {
+        h1 {
+            font-size: 40px;
+            line-height: 45px;
+        }
+        p {
+            font-size: 12px;
+            line-height: 20px;
+        }
+    }
+    .hero-btn {
+        button {
+            font-size: 12px;
+            padding: 13px 30px;
+        }
+        img {
+            width: 50px;
+        }
+    }
+    .hero-big {
+        img {
+            width: 350px;
+        }
+    }
+    .index {
+        img {
+            width: 250px;
+        }
+        h1 {
+            font-size: 35px;
+        }
+        p {
+            font-size: 12px;
+            line-height: 25px;
+        }
+    }
+    .metrics {
+        img {
+            width: 250px;
+        }
+        h1 {
+            font-size: 35px;
+        }
+        p {
+            font-size: 12px;
+            line-height: 25px;
+        }
+    }
+}
+
+@media (max-width: 744px) {
+    .prais-one {
+        display: none;
+    }
+    .prais-two {
+        padding: 10px;
+        button {
+            padding: 12px 40px;
+        }
+    }
+    .prais {
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+ }
+
+@media (max-width: 725px) {
+    .benchmarks {
+        flex-direction: column;
+        gap: 20px;
+        p {
+            font-size: 15px;
+        }
+        h1 {
+            font-size: 15px;
+        }
+        img {
+            width: 100px;
+            margin-left: 80px;
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .header {
+        button {
+            font-size: 11px;
+            padding: 10px 30px;
+        }
+        a {
+            font-size: 10px;
+        }
+        img {
+            width: 150px;
+        }
+    }
+    .plan {
+        h2 {
+            font-size: 25px;
+            line-height: 35px;
+        }
+    }
+    .planbtn {
+        button {
+            font-size: 10px;
+        }
+    }
+    .btn-monthly {
+            padding: 12px 40px;
+    }
+}
+
+@media (max-width: 640px) {
+    .metrics {
+        img {
+            width: 200px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 10px;
+            line-height: 25px;
+        }
+    }
+    .index {
+        img {
+            width: 200px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 10px;
+            line-height: 25px;
+        }   
+    }
+    .hero {
+        h1 {
+            font-size: 30px;
+            line-height: 35px;
+            letter-spacing: 2px;
+        }
+        p {
+            font-size: 10px;
+            line-height: 20px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .plan {
+        flex-direction: column;
+        gap: 10px;
+        h2 {
+            font-size: 30px;
+            line-height: 35px;
+            letter-spacing: 0.1px;
+        }
+    }
+    .planbtn {
+        button {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        button {
+            font-size: 9px;
+            padding: 8px 25px;
+        }
+        a {
+            font-size: 8px;
+        }
+        img {
+            width: 120px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        a {
+            display: none;
+        }
+        img {
+            width: 100px;
+        }
+    }
+    .hero {
+        flex-direction: column-reverse;
+        h1 {
+            font-size: 40px;
+            line-height: 45px;
+        }
+        p {
+            font-size: 15px;
+            line-height: 25px;
+        }
+        button {
+            font-size: 15px;
+        }
+    }
+    .hero-big {
+        width: 80%;
+    }
+    .index {
+        flex-direction: column;
+        h1 {
+            font-size: 35px;
+            line-height: 50px;
+        }
+        p {
+            font-size: 13px;
+            line-height: 25px;
+        }
+    }
+    .metrics {
+        flex-direction: column-reverse;
+        h1 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 11px;
+            line-height: 25px;
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .prais-two {
+        p {
+            line-height: 10=2px;
+        }
+        button {
+            font-size: 8px;
+            padding: 10px 30px;
+        }
+    }
+}
+
+@media (max-width: 423px) {
+    .plan {
+        h2 {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+    .planbtn {
+        button {
+            font-size: 10px;
+            
+        }
+    }
+    .benchmarks {
+        p {
+            font-size: 12px;
+        }
+        img {
+            margin-left: 60px;
+        }
+    }
+}
+
+@media (max-width: 385px) {
+    .benchmarks {
+        p {
+            font-size: 11px;
+        }
+        img {
+            margin-left: 50px;
+        }
+    }
+    .planbtn {
+        flex-direction: column;
+    }
+}
